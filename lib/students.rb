@@ -2,7 +2,7 @@
 
 def highest_student_gpa
   # "SELECT MAX(gpa) FROM students;"
-  "SELECT * FROM students ORDER BY desc LIMIT 1"
+  "SELECT * FROM students DESC ORDER BY gpa LIMIT 1"
 end
 
 def lowest_student_gpa
